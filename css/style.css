@@ -1,0 +1,453 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*END RESET*/
+
+
+
+/*HEADER*/
+header {
+	width: 1600px;
+	height: 750px;
+	margin:0 auto;
+	text-align: center;
+	background: url(../img/fon-header.jpg);
+}
+.top-block {
+	width: 1230px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.logo {
+	float:left;
+}
+.socials {
+	float:right;
+	margin-top:45px;
+}
+.socials a {
+	color:#c90;
+	font-size: 27px;
+	text-decoration: none;
+}
+.socials a:hover {
+	color:#fff;
+}
+nav {
+	float:right;
+}
+nav li {
+	float:left;
+}
+nav a {
+	text-decoration: none;
+	font-size: 21px;
+	color:#fff;
+	font-weight: bold;
+	display:block;
+	padding:50px 28px 0;
+	font-family: 'Gentium Book Basic', serif;
+}
+nav a:hover {
+	border-top:4px solid #fff;
+}
+header h1 {
+	font-size: 90px;
+	color:#fff;
+	font-family: 'Yeseva One', cursive;
+	width:1000px;
+	margin:120px auto 0;
+	line-height: 110px;
+}
+.big-uzor {
+	width: 232px;
+	height: 43px;
+	margin:25px auto;
+	background: url(../img/big-uzor.png);
+}
+.black {
+	display:inline-block;
+	width: 230px;
+	height: 56px;
+	border:1px solid #000;
+	background: rgba(0,0,0,.7);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	color:#fff;
+	margin-right: 15px;
+	font-family: 'Lato', sans-serif;
+	line-height: 56px;
+	transition: 500ms;
+}
+.white {
+	display:inline-block;
+	width: 230px;
+	height: 56px;
+	border:1px solid #fff;
+	background: rgba(255,255,255,.3);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	color:#fff;
+	margin-left: 15px;
+	font-family: 'Lato', sans-serif;
+	line-height: 56px;
+	transition: 500ms;
+}
+.black:hover,
+.white:hover {
+	background: none;
+}
+/*END HEADER*/
+
+/*ABOUT*/
+.about {
+	width: 1600px;
+	height: 710px;
+	margin:0 auto;
+	background: url(../img/fon.png);
+	text-align: center;
+}
+.cook {
+	display: inline-block;
+	width: 440px;
+	margin-top: 100px;
+	vertical-align: top;
+}
+.cook h3 {
+	font-size:36px;
+	color:#c90;
+	font-family: 'Yeseva One', cursive;
+}
+.yellow-uzor {
+	width: 247px;
+	height: 24px;
+	margin:25px auto;
+	background: url(../img/yellow-uzor.png);
+}
+.cook p {
+	color:#4c4c4c;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'Lato', sans-serif;
+}
+.cook img {
+	margin:40px 0 0 80px;
+}
+.dish {
+	display:inline-block;
+	vertical-align: top;
+	margin:60px 0 0 30px;
+}
+/*END ABOUT*/
+
+/*INGREDIENTS*/
+.ingredients {
+	width: 1600px;
+	height: 758px;
+	margin: 0 auto;
+	background: url(../img/fon-ingredients.jpg);
+	text-align: right;
+}
+.ingred-block {
+	display:inline-block;
+	width: 570px;
+	height: 560px;
+	background: rgba(0,0,0,.7);
+	color:#fff;
+	text-align: center;
+	padding:70px;
+	box-sizing: border-box;
+	margin:100px 200px 0 0;
+}
+.ingred-block h3 {
+	font-size: 36px;
+	font-family: 'Yeseva One', cursive;
+}
+.white-uzor {
+	width: 247px;
+	height: 24px;
+	background: url(../img/white-uzor.png);
+	margin: 25px auto;
+}
+.ingred-block p {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	line-height: 24px;
+}
+.ingred-block a {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+	border:9px solid rgba(255,255,255,.09);
+	margin:60px 10px 0;
+	text-align: center;
+	overflow: hidden;
+	transition: 1s;
+}
+.ingred-block a img {
+	width: 150px;
+}
+.ingred-block a:hover {
+	transform: rotateY(360deg);
+	border-radius:20px;
+}
+.reviews {
+	width: 1600px;
+	height: 758px;
+	margin:0 auto;
+	text-align: center;
+	background: url(../img/fon-reviews.jpg);
+	padding-top:100px;
+	box-sizing: border-box;
+}
+.review-block {
+	width:765px;
+	height: 560px;
+	background: rgba(0,0,0,.7);
+	color:#fff;
+	margin:0 auto;
+	padding:70px;
+	box-sizing: border-box;
+} 
+.review-block h3 {
+	font-family: 'Yeseva One', cursive;
+	font-size: 36px;
+}
+.review-block p {
+	font-size: 25px;
+	font-family: 'Gentium Book Basic', serif;
+	line-height: 45px;
+	position: relative;
+}
+.city {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	margin-top:80px;
+}
+.review-block p:before {
+	content:"";
+	display:block;
+	width: 40px;
+	height: 27px;
+	background: url(../img/quotes.png);
+	position: absolute;
+	left:-40px;
+	top:-5px;
+}
+/*END INGREDIENTS*/
+
+
+/*MENU*/
+.menu {
+	width:1600px;
+	background: url(../img/fon.png);
+	margin:0 auto;
+	text-align: center;
+	padding:70px 0 100px;
+}
+.block-menu {
+	display: inline-block;
+	width: 440px;
+	vertical-align: top;
+	margin:0 50px;
+}
+.block-menu h3 {
+	color:#c90;
+	font-size: 36px;
+	font-family: 'Yeseva One', cursive;
+	padding-top:40px;
+}
+.punkt-menu {
+	margin-bottom: 30px;
+} 
+.name {
+	color:#c89f2d;
+	font-size: 21px;
+	font-family: 'Yeseva One', cursive;
+	border-bottom:1px solid #c90;
+	padding-bottom:10px;
+	overflow: hidden;
+}
+.name span:first-child {
+	float:left;
+}
+.name span:last-child {
+	float:right;
+}
+.opisanie {
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color:#4c4c4c;
+	padding-top: 10px;
+} 
+.special {
+	border:1px solid #c90;
+	padding:5px;
+	position: relative;
+	margin-top: 30px;
+}
+.special i {
+	position: absolute;
+	right:-1px;
+	top:-22px;
+	display:block;
+	width: 70px;
+	height: 22px;
+	background: #c90;
+	color:#fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+/*END MENU*/
+
+/*RESERVATIONS*/
+.reservations {
+	width:1600px;
+	height:710px;
+	margin:0 auto;
+	background:url(../img/fon.png);
+	text-align: center;
+}
+.reservations>img {
+	display:inline-block;
+	vertical-align: top;
+	margin:100px 30px 0 0;
+}
+.reserv-block {
+	display:inline-block;
+	vertical-align: top;
+	width: 440px;
+	margin:100px 0 0 70px;
+	font-family: 'Open Sans', sans-serif;
+}
+.reserv-block h3 {
+	color:#c90;
+	font-size: 36px;
+	font-family: 'Yeseva One', cursive;
+}
+.reserv-block p {
+	font-family: 'Lato', sans-serif;
+	color:#4c4c4c;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 25px;
+}
+.form-block {
+	float:left;
+	width: 220px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+.form-block label {
+	display: block;
+	color:#c90;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom:10px;
+}
+.form-block input {
+	width:200px;
+	height:34px;
+	border:1px solid #c8c6c6;
+	padding:0 15px;
+	box-sizing: border-box;
+	color:#7c7c7c;
+	font-style: italic;
+	font-size: 16px;
+	outline:none;
+}
+.form-block input:focus {
+	border:1px solid #c90;
+}
+.reserv-block input[type="submit"] {
+	background: #c90;
+	width: 200px;
+	height: 36px;
+	border:none;
+	color:#fff;
+	font-size: 16px;
+	/*cursor:url(../img/twitter.png), auto;*/
+	cursor:pointer;
+}
+/*END RESERVATIONS*/
+
+/*FOOTER*/
+footer {
+	width: 1600px;
+	height:320px;
+	margin:0 auto;
+	text-align: center;
+	background: #191919;
+}
+.footer-block {
+	width:380px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 60px;
+	color:#fff;
+}
+.footer-block h5 {
+	font-size: 21px;
+	font-family: 'Yeseva One', cursive;
+	text-transform: capitalize;
+}
+.footer-block p {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+	font-size: 16px;
+}
+.footer-block strong {
+	font-weight: bold;
+}
+.footer-block>img {
+	margin-top: 50px;
+}
+.footer-soc  {
+	margin-top: 45px;
+}
+/*END FOOTER*/
